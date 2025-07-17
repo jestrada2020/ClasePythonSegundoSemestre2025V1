@@ -102,11 +102,11 @@
 
 /* Module Content Visibility */
 .module-content {
-    display: none !important;
+    display: none;
 }
 
 .module-content.active {
-    display: block !important;
+    display: block;
 }
 
 /* Tooltips */
