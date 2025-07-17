@@ -1,0 +1,63 @@
+/* Interactive Elements - Quiz, Notebook Previews, Debug Panels */
+
+/* Quiz Elements */
+.quiz-option {
+    background: #f7fafc;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px;
+    margin: 8px 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.quiz-option:hover {
+    background: #edf2f7;
+    border-color: #cbd5e0;
+}
+
+.quiz-option.correct {
+    background: #f0fff4;
+    border-color: #68d391;
+}
+
+.quiz-option.incorrect {
+    background: #fff5f5;
+    border-color: #fc8181;
+}
+
+/* Notebook Previews */
+.notebook-preview {
+    background: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px 0;
+}
+
+/* Interactive Demo */
+.interactive-demo {
+    background: #f0f9ff;
+    border: 2px solid #3b82f6;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 15px 0;
+}
+
+/* Debug Panels */
+.debug-panel {
+    background: #1f2937;
+    color: #e5e7eb;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 0;
+    font-family: 'Courier New', monospace;
+}
+
+.variable-inspector {
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 0;
+}
